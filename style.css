@@ -1,0 +1,55 @@
+.container{
+   width: 600px;
+   margin: 50px auto;
+   text-align: center;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btn:hover{
+    border: 1px solid blueviolet;
+}
+
+.dice{
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(116, 114, 114);
+}
+
+.dice-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.play-animation{
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forward;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
